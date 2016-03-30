@@ -4,18 +4,20 @@
 #
 Name     : rubygem-thread_order
 Version  : 1.1.0
-Release  : 3
+Release  : 4
 URL      : https://rubygems.org/downloads/thread_order-1.1.0.gem
 Source0  : https://rubygems.org/downloads/thread_order-1.1.0.gem
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : MIT
 BuildRequires : ruby
+BuildRequires : rubygem-devise
 BuildRequires : rubygem-diff-lcs
 BuildRequires : rubygem-rdoc
 BuildRequires : rubygem-rspec
 BuildRequires : rubygem-rspec-core
 BuildRequires : rubygem-rspec-expectations
+BuildRequires : rubygem-rspec-mocks
 BuildRequires : rubygem-rspec-support
 
 %description
@@ -59,29 +61,16 @@ popd
 
 %files
 %defattr(-,root,root,-)
-/usr/lib64/ruby/gems/2.2.0/cache/thread_order-1.1.0.gem
-/usr/lib64/ruby/gems/2.2.0/doc/thread_order-1.1.0/ri/ThreadOrder/apocalypse%21-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/thread_order-1.1.0/ri/ThreadOrder/cdesc-ThreadOrder.ri
-/usr/lib64/ruby/gems/2.2.0/doc/thread_order-1.1.0/ri/ThreadOrder/current-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/thread_order-1.1.0/ri/ThreadOrder/declare-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/thread_order-1.1.0/ri/ThreadOrder/enqueue-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/thread_order-1.1.0/ri/ThreadOrder/extract_resume_event%21-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/thread_order-1.1.0/ri/ThreadOrder/join_all-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/thread_order-1.1.0/ri/ThreadOrder/new-c.ri
-/usr/lib64/ruby/gems/2.2.0/doc/thread_order-1.1.0/ri/ThreadOrder/pass_to-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/thread_order-1.1.0/ri/ThreadOrder/sync-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/thread_order-1.1.0/ri/ThreadOrder/wait_until-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/thread_order-1.1.0/ri/ThreadOrder/work-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/thread_order-1.1.0/ri/cache.ri
-/usr/lib64/ruby/gems/2.2.0/gems/thread_order-1.1.0/.gitignore
-/usr/lib64/ruby/gems/2.2.0/gems/thread_order-1.1.0/.travis.yml
-/usr/lib64/ruby/gems/2.2.0/gems/thread_order-1.1.0/Gemfile
-/usr/lib64/ruby/gems/2.2.0/gems/thread_order-1.1.0/License.txt
-/usr/lib64/ruby/gems/2.2.0/gems/thread_order-1.1.0/Readme.md
-/usr/lib64/ruby/gems/2.2.0/gems/thread_order-1.1.0/lib/thread_order.rb
-/usr/lib64/ruby/gems/2.2.0/gems/thread_order-1.1.0/lib/thread_order/mutex.rb
-/usr/lib64/ruby/gems/2.2.0/gems/thread_order-1.1.0/lib/thread_order/version.rb
-/usr/lib64/ruby/gems/2.2.0/gems/thread_order-1.1.0/spec/run
-/usr/lib64/ruby/gems/2.2.0/gems/thread_order-1.1.0/spec/thread_order_spec.rb
-/usr/lib64/ruby/gems/2.2.0/gems/thread_order-1.1.0/thread_order.gemspec
-/usr/lib64/ruby/gems/2.2.0/specifications/thread_order-1.1.0.gemspec
+/usr/lib64/ruby/gems/2.3.0/cache/thread_order-1.1.0.gem
+/usr/lib64/ruby/gems/2.3.0/gems/thread_order-1.1.0/.gitignore
+/usr/lib64/ruby/gems/2.3.0/gems/thread_order-1.1.0/.travis.yml
+/usr/lib64/ruby/gems/2.3.0/gems/thread_order-1.1.0/Gemfile
+/usr/lib64/ruby/gems/2.3.0/gems/thread_order-1.1.0/License.txt
+/usr/lib64/ruby/gems/2.3.0/gems/thread_order-1.1.0/Readme.md
+/usr/lib64/ruby/gems/2.3.0/gems/thread_order-1.1.0/lib/thread_order.rb
+/usr/lib64/ruby/gems/2.3.0/gems/thread_order-1.1.0/lib/thread_order/mutex.rb
+/usr/lib64/ruby/gems/2.3.0/gems/thread_order-1.1.0/lib/thread_order/version.rb
+/usr/lib64/ruby/gems/2.3.0/gems/thread_order-1.1.0/spec/run
+/usr/lib64/ruby/gems/2.3.0/gems/thread_order-1.1.0/spec/thread_order_spec.rb
+/usr/lib64/ruby/gems/2.3.0/gems/thread_order-1.1.0/thread_order.gemspec
+/usr/lib64/ruby/gems/2.3.0/specifications/thread_order-1.1.0.gemspec
